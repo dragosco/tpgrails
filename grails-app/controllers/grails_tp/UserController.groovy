@@ -1,7 +1,7 @@
 package grails_tp
 
 
-
+import org.springframework.security.access.annotation.Secured
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
@@ -10,19 +10,22 @@ class UserController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
+    @Secured('ROLE_ADMIN')
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond User.list(params), model:[userInstanceCount: User.count()]
     }
 
+    @Secured('IS_AUTHENTICATED_FULLY')
     def show(User userInstance) {
         respond userInstance
     }
-
+    @Secured('permitAll')
     def create() {
+        //redirect(controller: "index", action: "list")
         respond new User(params)
     }
-
+    @Secured('permitAll')
     @Transactional
     def save(User userInstance) {
         if (userInstance == null) {
@@ -46,10 +49,12 @@ class UserController {
         }
     }
 
+    @Secured('IS_AUTHENTICATED_FULLY')
     def edit(User userInstance) {
         respond userInstance
     }
 
+    @Secured('IS_AUTHENTICATED_FULLY')
     @Transactional
     def update(User userInstance) {
         if (userInstance == null) {
@@ -72,7 +77,7 @@ class UserController {
             '*'{ respond userInstance, [status: OK] }
         }
     }
-
+    @Secured('ROLE_ADMIN')
     @Transactional
     def delete(User userInstance) {
 

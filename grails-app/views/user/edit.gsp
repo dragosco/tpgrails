@@ -2,19 +2,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main">
+		<meta name="layout" content="mainWithNav">
 		<g:set var="entityName" value="${message(code: 'user.label', default: 'User')}" />
 		<title><g:message code="default.edit.label" args="[entityName]" /></title>
 	</head>
 	<body>
-		<a href="#edit-user" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div class="nav" role="navigation">
-			<ul>
-				<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-				<li><g:link class="list" action="index"><g:message code="default.list.label" args="[entityName]" /></g:link></li>
-				<li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
-			</ul>
-		</div>
 		<div id="edit-user" class="content scaffold-edit" role="main">
 			<h1><g:message code="default.edit.label" args="[entityName]" /></h1>
 			<g:if test="${flash.message}">
@@ -29,9 +21,82 @@
 			</g:hasErrors>
 			<g:form url="[resource:userInstance, action:'update']" method="PUT" >
 				<g:hiddenField name="version" value="${userInstance?.version}" />
-				<fieldset class="form">
-					<g:render template="form"/>
-				</fieldset>
+
+				<sec:ifNotGranted roles="ROLE_ADMIN">
+					<g:if test="${sec.username() == userInstance?.username}">
+						<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'username', 'error')} required">
+							<label for="username">
+								<g:message code="user.username.label" default="Username" />
+								<span class="required-indicator">*</span>
+							</label>
+							<g:textField name="username" required="" value="${userInstance?.username}"/>
+
+						</div>
+
+						<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'password', 'error')} required">
+							<label for="password">
+								<g:message code="user.password.label" default="Password" />
+								<span class="required-indicator">*</span>
+							</label>
+							<g:textField name="password" required="" value="${userInstance?.password}"/>
+
+						</div>
+					</g:if>
+				</sec:ifNotGranted>
+				<sec:ifAllGranted roles='ROLE_ADMIN'>
+					<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'username', 'error')} required">
+						<label for="username">
+							<g:message code="user.username.label" default="Username" />
+							<span class="required-indicator">*</span>
+						</label>
+						<g:textField name="username" required="" value="${userInstance?.username}"/>
+
+					</div>
+
+					<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'password', 'error')} required">
+						<label for="password">
+							<g:message code="user.password.label" default="Password" />
+							<span class="required-indicator">*</span>
+						</label>
+						<g:textField name="password" required="" value="${userInstance?.password}"/>
+
+					</div>
+					<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'accountExpired', 'error')} ">
+						<label for="accountExpired">
+							<g:message code="user.accountExpired.label" default="Account Expired" />
+
+						</label>
+						<g:checkBox name="accountExpired" value="${userInstance?.accountExpired}" />
+
+					</div>
+
+					<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'accountLocked', 'error')} ">
+						<label for="accountLocked">
+							<g:message code="user.accountLocked.label" default="Account Locked" />
+
+						</label>
+						<g:checkBox name="accountLocked" value="${userInstance?.accountLocked}" />
+
+					</div>
+
+					<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'enabled', 'error')} ">
+						<label for="enabled">
+							<g:message code="user.enabled.label" default="Enabled" />
+
+						</label>
+						<g:checkBox name="enabled" value="${userInstance?.enabled}" />
+
+					</div>
+
+					<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'passwordExpired', 'error')} ">
+						<label for="passwordExpired">
+							<g:message code="user.passwordExpired.label" default="Password Expired" />
+
+						</label>
+						<g:checkBox name="passwordExpired" value="${userInstance?.passwordExpired}" />
+
+					</div>
+				</sec:ifAllGranted>
 				<fieldset class="buttons">
 					<g:actionSubmit class="save" action="update" value="${message(code: 'default.button.update.label', default: 'Update')}" />
 				</fieldset>

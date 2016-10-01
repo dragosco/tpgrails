@@ -1,14 +1,15 @@
 package grails_tp
 
+import grails.plugin.springsecurity.SpringSecurityService
 import org.springframework.security.access.annotation.Secured
-
-import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
 @Transactional(readOnly = true)
 class GroupeController {
+    def grailsApplication
+    SpringSecurityService springSecurityService
 
-    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
+    static allowedMethods = [save: "POST", update: "POST", delete: "DELETE"]
 
     @Secured('IS_AUTHENTICATED_FULLY')
     def index(Integer max) {
@@ -23,11 +24,30 @@ class GroupeController {
 
     @Secured(['ROLE_ADMIN', 'ROLE_MOD'])
     def create() {
+
         respond new Groupe(params)
     }
 
+    @Secured(['ROLE_ADMIN', 'ROLE_MOD'])
     @Transactional
     def save(Groupe groupeInstance) {
+        groupeInstance.auteur = springSecurityService.getCurrentUser()
+
+        def parent = Groupe.get(params.parent.id)
+        if (parent) {
+            groupeInstance.parent = parent
+        }
+
+        def file = request.getFile('image')
+        if (!file.empty) {
+            File fileDest = new File(grailsApplication.config.images.groupes.path, file.getOriginalFilename())
+            file.transferTo(fileDest)
+        }
+        Photo photo = new Photo(nom:file.getOriginalFilename()).save(flush: true, failOnError: true)
+
+        groupeInstance.photo = photo
+        groupeInstance.validate()
+
         if (groupeInstance == null) {
             notFound()
             return
@@ -54,8 +74,27 @@ class GroupeController {
         respond groupeInstance
     }
 
+    @Secured(['ROLE_ADMIN', 'ROLE_MOD'])
     @Transactional
     def update(Groupe groupeInstance) {
+        groupeInstance.auteur = springSecurityService.getCurrentUser()
+
+        def parent = Groupe.get(params.parent.id)
+        if (parent) {
+            groupeInstance.parent = parent
+        }
+
+        def file = request.getFile('image')
+        if (!file.empty) {
+            File fileDest = new File(grailsApplication.config.images.groupes.path, file.getOriginalFilename())
+            file.transferTo(fileDest)
+        }
+        Photo photo = new Photo(nom:file.getOriginalFilename()).save(flush: true, failOnError: true)
+
+        groupeInstance.photo = photo
+        groupeInstance.validate()
+
+
         if (groupeInstance == null) {
             notFound()
             return

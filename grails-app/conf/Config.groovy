@@ -128,8 +128,9 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
         [pattern: '/**/css/**',             access: 'permitAll'],
         [pattern: '/**/images/**',          access: 'permitAll'],
         [pattern: '/**/favicon.ico',        access: 'permitAll']
-
 ]
-images.groupes.path     =   "/groupes/"
-images.activites.path   =   "/activites/"
-images.url              =   "http://localhost/photosTPGrails"
+
+images.groupes.path     =   "C:/wamp64/www/photosTPGrails/groupes/"
+images.activites.path   =   "C:/wamp64/www/photosTPGrails/activites/"
+images.groupes.url      =   "http://localhost/photosTPGrails/groupes/"
+images.activites.url    =   "http://localhost/photosTPGrails/activites/"

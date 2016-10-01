@@ -26,9 +26,23 @@
 			</ul>
 			</g:hasErrors>
 			<g:form url="[resource:userInstance, action:'save']" >
-				<fieldset class="form">
-					<g:render template="form"/>
-				</fieldset>
+				<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'username', 'error')} required">
+					<label for="username">
+						<g:message code="user.username.label" default="Username" />
+						<span class="required-indicator">*</span>
+					</label>
+					<g:textField name="username" required="" value="${userInstance?.username}"/>
+
+				</div>
+
+				<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'password', 'error')} required">
+					<label for="password">
+						<g:message code="user.password.label" default="Password" />
+						<span class="required-indicator">*</span>
+					</label>
+					<g:textField name="password" required="" value="${userInstance?.password}"/>
+
+				</div>
 				<fieldset class="buttons">
 					<g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />
 				</fieldset>

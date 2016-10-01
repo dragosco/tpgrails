@@ -7,7 +7,53 @@
 * You're free to add application-wide styles to this file and they'll appear at the top of the
 * compiled file, but it's generally better to create a new file per style scope.
 *
-*= require main
+*= require bootstrap
 *= require mobile
 *= require_self
 */
+
+html, body {
+    background-color: #EFECCA;
+
+}
+
+#main {
+    background-color: #FFF;
+    -webkit-box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.75);
+}
+.jumbotron {
+    background-color: #105B63;
+    border-radius: 0 !important;
+    margin: 0;
+}
+.container {
+    padding: 0;
+}
+#logo {
+    color: #E6E2AF;
+    font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    background-color: #BD4932;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFFAD5;
+}
+
+/*
+*   GROUPES
+*/
+
+#create-groupe {
+    margin: 0 auto;
+    width: 50%;
+}

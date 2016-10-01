@@ -1,7 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45828b3b-bd51-43d6-b756-81eaf79c2694" name="Default" comment="" />
+    <list default="true" id="45828b3b-bd51-43d6-b756-81eaf79c2694" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/layouts/mainWithNav.gsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/Role$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/Role$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/Role.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/User$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/User$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$__clinit__closure8$_closure12$_closure13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$__clinit__closure8$_closure12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$__clinit__closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$__clinit__closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$_criteriaFor_closure1$_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$_criteriaFor_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$_removeAll_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$_removeAll_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$_removeAll_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$_removeAll_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$_remove_closure2$_closure11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$_remove_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole$_remove_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/mbds/tpgrails/UserRole.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteService$_serviceMethod_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/grails_tp/Activity$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/grails_tp/Activity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeService$_listGroupesArborescence_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeService$_serviceMethod_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserService$_serviceMethod_closure1.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.asscache" afterPath="$PROJECT_DIR$/.asscache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure5.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Config.class" afterPath="$PROJECT_DIR$/target/classes/Config.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/Activite.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/Activite.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__delete_closure11$_closure18.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__delete_closure11$_closure18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__delete_closure11$_closure19.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__delete_closure11$_closure19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__delete_closure11.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__delete_closure11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__save_closure9$_closure14.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__save_closure9$_closure14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__save_closure9$_closure15.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__save_closure9$_closure15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__save_closure9.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__save_closure9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__update_closure10$_closure16.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__update_closure10$_closure16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__update_closure10$_closure17.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__update_closure10$_closure17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__update_closure10.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$__tt__update_closure10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$_notFound_closure8$_closure12.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$_notFound_closure8$_closure12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$_notFound_closure8$_closure13.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$_notFound_closure8$_closure13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$_notFound_closure8.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController$_notFound_closure8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/ActiviteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/Groupe.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/Groupe.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__delete_closure11$_closure18.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__delete_closure11$_closure18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__delete_closure11$_closure19.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__delete_closure11$_closure19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__delete_closure11.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__delete_closure11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__save_closure9$_closure14.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__save_closure9$_closure14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__save_closure9$_closure15.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__save_closure9$_closure15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__save_closure9.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__save_closure9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__update_closure10$_closure16.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__update_closure10$_closure16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__update_closure10$_closure17.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__update_closure10$_closure17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__update_closure10.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$__tt__update_closure10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$_notFound_closure8$_closure12.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$_notFound_closure8$_closure12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$_notFound_closure8$_closure13.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$_notFound_closure8$_closure13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$_notFound_closure8.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController$_notFound_closure8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeService$__tt__listSuperGroupes_closure3.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeService$__tt__listSuperGroupes_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/GroupeService.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/GroupeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/Photo.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/Photo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/PhotoController$__tt__delete_closure11$_closure18.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/PhotoController$__tt__delete_closure11$_closure18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/PhotoController$__tt__save_closure9$_closure14.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/PhotoController$__tt__save_closure9$_closure14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/PhotoController$__tt__update_closure10$_closure16.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/PhotoController$__tt__update_closure10$_closure16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/PhotoController.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/PhotoController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/Role.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/Role.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/RoleController$__tt__delete_closure11$_closure18.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/RoleController$__tt__delete_closure11$_closure18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/RoleController$__tt__save_closure9$_closure14.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/RoleController$__tt__save_closure9$_closure14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/RoleController$__tt__update_closure10$_closure16.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/RoleController$__tt__update_closure10$_closure16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/RoleController.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/RoleController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/User.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__delete_closure11$_closure18.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__delete_closure11$_closure18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__delete_closure11$_closure19.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__delete_closure11$_closure19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__delete_closure11.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__delete_closure11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__save_closure9$_closure14.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__save_closure9$_closure14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__save_closure9$_closure15.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__save_closure9$_closure15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__save_closure9.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__save_closure9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__update_closure10$_closure16.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__update_closure10$_closure16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__update_closure10$_closure17.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__update_closure10$_closure17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__update_closure10.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserController$__tt__update_closure10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserController$_notFound_closure8$_closure12.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserController$_notFound_closure8$_closure12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserController$_notFound_closure8$_closure13.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserController$_notFound_closure8$_closure13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserController$_notFound_closure8.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserController$_notFound_closure8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserController.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserRole.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grails_tp/UserService.class" afterPath="$PROJECT_DIR$/target/classes/grails_tp/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LoginController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LogoutController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LogoutController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.slcache/.index" afterPath="$PROJECT_DIR$/.slcache/.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/grails_tp/ActiviteController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/grails_tp/ActiviteController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/grails_tp/GroupeController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/grails_tp/GroupeController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/grails_tp/UserController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/grails_tp/UserController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/grails_tp/GroupeService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/grails_tp/GroupeService.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/grails_tp/UserService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/grails_tp/UserService.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/groupe/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/groupe/_form.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/groupe/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/groupe/create.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/groupe/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/groupe/edit.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/groupe/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/groupe/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/groupe/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/groupe/show.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/_form.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/create.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/edit.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/show.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails_tp-grailsPlugins.iml" afterPath="$PROJECT_DIR$/grails_tp-grailsPlugins.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+    </list>
     <ignored path="grails_tp.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,7 +153,71 @@
     <favorites_list name="grails_tp" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="IndexController.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/IndexController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/groupe/show.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/groupe/edit.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/User.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/UserController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -42,30 +234,49 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/grails_tp/Activity.groovy" />
         <option value="$PROJECT_DIR$/test/unit/grails_tp/ActivitySpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/grails_tp/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/grails_tp/AuthorityEnum.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/services/grails_tp/UserService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/grails_tp/Activite.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/grails_tp/ActiviteService.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/grails_tp/Photo.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/grails_tp/Groupe.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/groupe/index.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/services/grails_tp/GroupeService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/test/index.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/src/groovy/grails_tp/AuthorityEnum.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/groupe/_form.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/grails_tp/IndexController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/grails_tp/GroupeController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/grails_tp/UserService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/grails-app/assets/stylesheets/mainWithNav.css" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/mainWithNav.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/grails_tp/GroupeService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/groupe/create.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/groupe/_form.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/groupe/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/activite/create.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/activite/edit.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/activite/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/activite/show.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/grails_tp/GroupeController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/grails_tp/ActiviteController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/activite/_form.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/_form.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/create.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/show.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/edit.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/groupe/show.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/groupe/edit.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/grails_tp/UserController.groovy" />
       </list>
     </option>
   </component>
@@ -109,11 +320,168 @@
       <pane id="PackagesPane">
         <subPane />
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails-app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails-app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="user">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails-app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="groupe">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails-app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails-app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="domain">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails-app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="controllers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="grails_tp">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -123,6 +491,7 @@
       <pane id="ProjectPane">
         <subPane />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,6 +503,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -616,7 +986,14 @@
       <workItem from="1474614780857" duration="20529000" />
       <workItem from="1474802869221" duration="9297000" />
       <workItem from="1474956583935" duration="22043000" />
-      <workItem from="1474987067373" duration="153000" />
+      <workItem from="1474987067373" duration="411000" />
+      <workItem from="1475042898514" duration="15988000" />
+      <workItem from="1475062568026" duration="2965000" />
+      <workItem from="1475065553656" duration="2410000" />
+      <workItem from="1475067985302" duration="6587000" />
+      <workItem from="1475082144284" duration="5782000" />
+      <workItem from="1475171167092" duration="3735000" />
+      <workItem from="1475230378590" duration="3036000" />
     </task>
     <servers />
   </component>
@@ -629,34 +1006,43 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54480000" />
+    <option name="totallyTimeSpent" value="95241000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2751982" sideWeight="0.5786458" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2819932" sideWeight="0.5786458" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18313642" sideWeight="0.37825593" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18313642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18313642" sideWeight="0.6195652" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18297197" sideWeight="0.38043478" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.49583334" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17553794" sideWeight="0.49583334" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -669,6 +1055,41 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44620612" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Grails Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41336355" sideWeight="0.49583334" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.49583334" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2788145" sideWeight="0.49375" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2751982" sideWeight="0.5786458" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18313642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44620612" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -682,7 +1103,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -690,224 +1113,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/Groupe.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/grails_tp/GroupeService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/GroupeController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/Activite.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/grails_tp/ActiviteService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/grails_tp/UserSpec.groovy" />
-    <entry file="file://$PROJECT_DIR$/test/unit/grails_tp/ActiviteSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/AuthorityEnum.groovy" />
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/RoleController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/UserRole.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="53" column="26" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="26" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/User.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/grails_tp/UserService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/Activite.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/spring/resources.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/error.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/UserController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/ActiviteController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/Role.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/PhotoController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
-          <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/create.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0.0/grails-app/views/login/denied.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0.0/src/groovy/grails/plugin/springsecurity/annotation/Secured.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0.0/grails-app/views/login/auth.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0.0/grails-app/controllers/grails/plugin/springsecurity/LogoutController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0.0/grails-app/conf/DefaultSecurityConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0.0/grails-app/controllers/grails/plugin/springsecurity/LoginController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-572">
@@ -915,116 +1120,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/groupe/create.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp" />
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp" />
     <entry file="file://$PROJECT_DIR$/grails-app/services/grails_tp/ActiviteService.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/groupe/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/Photo.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/grails_tp/GroupeService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/Groupe.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/groupe/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/groupe/_form.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/GroupeController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-259">
-          <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/groupe/edit.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="125" column="78" selection-start-line="125" selection-start-column="78" selection-end-line="125" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/IndexController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1035,10 +1136,339 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/Role.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/UserRole.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/grails_tp/UserService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/UserRoleController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/errors.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1518">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/mainWithNav.css" />
+    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/PhotoController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/photos/groupes/315548-alexfas01.jpg" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="171" selection-start-line="11" selection-start-column="171" selection-end-line="11" selection-end-column="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/photos/groupes/Marvel_15.jpg" />
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/Photo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/Groupe.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/grails_tp/GroupeService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+        <state relative-caret-position="308">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1385">
+          <caret line="119" column="44" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/activite/create.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/activite/edit.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/activite/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/activite/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/error.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/GroupeController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#19#76#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/groupe/create.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/groupe/_form.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/activite/_form.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="47" column="65" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/ActiviteController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/IndexController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/groupe/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-783">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_tp/User.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/_form.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/mainWithNav.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="39" column="71" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/edit.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/create.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/groupe/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/groupe/edit.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_tp/UserController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,8 +1479,8 @@
         <entry key="grails_tp">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="142682322" />
-              <option name="pluginDependenciesCrc" value="2144730956" />
+              <option name="buildConfigCrc" value="-832283564" />
+              <option name="pluginDependenciesCrc" value="-1534216874" />
               <option name="properties">
                 <map>
                   <entry key="grails.global.plugins.dir" value="C:\Users\cojoc\.grails\2.5.4\global-plugins" />

@@ -20,9 +20,10 @@ class GroupeService {
     }
 
     def listSuperGroupes() {
+        def aucunGroupe = Groupe.get(1)
         def listeSuperGroupes = []
         Groupe.list().each {groupe ->
-            if(groupe.parent == null) {
+            if(groupe.parent == aucunGroupe) {
                 listeSuperGroupes.add(groupe)
             }
         }

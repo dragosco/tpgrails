@@ -13,4 +13,12 @@ class UserService {
 
         return user
     }
+
+    def grantRole (long userId, long newRoleId) {
+        def user = User.get(userId)
+        def newRole = Role.get(newRoleId)
+
+        def userRole = new UserRole(user, newRole)
+        userRole.save(flush: true, failOnError: true)
+    }
 }
