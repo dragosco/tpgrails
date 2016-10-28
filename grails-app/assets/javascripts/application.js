@@ -19,3 +19,25 @@ if (typeof jQuery !== 'undefined') {
 		});
 	})(jQuery);
 }
+
+$( document ).ready(function () {
+	$("#pass_not_equal_div").hide();
+	$("#pass").keyup(function() {
+		if ($("#confirm_pass").val() != $(this).val()) {
+			$("#pass_not_equal_div").show();
+			$("#register_btn").prop("disabled",true);
+		} else {
+			$("#pass_not_equal_div").hide();
+		}
+	});
+	$("#confirm_pass").keyup(function() {
+		if ($("#pass").val() != $(this).val()) {
+			$("#pass_not_equal_div").show();
+			$("#register_btn").prop("disabled",true);
+		} else {
+			$("#pass_not_equal_div").hide();
+		}
+	});
+
+	$(".img-description").css({'line-height': $(".img-wrapper").height() + "px"});
+});

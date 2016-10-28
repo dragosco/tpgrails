@@ -16,10 +16,12 @@
 		<r:layoutResources/>
 	</head>
 	<body>
-		<div id="main" class="container">
-			<div class="jumbotron">
-				<a id="logo" class="home" href="${createLink(uri: '/')}">GOOUT</a>
+		<div class="container-fluid" id="topContainer">
+			<div id="bck">
+				<span id="logo">go out!</span>
 			</div>
+		</div>
+		<div id="main" class="container">
 			<div class="container">
 				<g:layoutBody/>
 				<r:layoutResources/>

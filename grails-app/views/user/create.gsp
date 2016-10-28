@@ -1,20 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main">
+		<meta name="layout" content="mainWithNav">
 		<g:set var="entityName" value="${message(code: 'user.label', default: 'User')}" />
 		<title><g:message code="default.create.label" args="[entityName]" /></title>
 	</head>
 	<body>
-		<a href="#create-user" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div class="nav" role="navigation">
-			<ul>
-				<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-				<li><g:link class="list" action="index"><g:message code="default.list.label" args="[entityName]" /></g:link></li>
-			</ul>
-		</div>
 		<div id="create-user" class="content scaffold-create" role="main">
-			<h1><g:message code="default.create.label" args="[entityName]" /></h1>
 			<g:if test="${flash.message}">
 			<div class="message" role="status">${flash.message}</div>
 			</g:if>
@@ -25,27 +17,50 @@
 				</g:eachError>
 			</ul>
 			</g:hasErrors>
-			<g:form url="[resource:userInstance, action:'save']" >
-				<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'username', 'error')} required">
-					<label for="username">
-						<g:message code="user.username.label" default="Username" />
-						<span class="required-indicator">*</span>
-					</label>
-					<g:textField name="username" required="" value="${userInstance?.username}"/>
+			<div class="row">
+				<div class="page-header col-md-offset-3 col-md-6">
+					<span>NOUVEAU COMPTE</span>
+				</div>
+			</div>
+			<g:form class="form" url="[resource:userInstance, action:'save']" >
+			<div class="row">
+				<div class="col-md-offset-3 col-md-3">
+					<span class="label">Pseudo *</span>
+				</div>
+				<div class="col-md-3">
+						<g:textField type="text" class="form-control" placeholder="ex. Bond007" name="username" required="" value="${userInstance?.username}"/>
 
 				</div>
 
-				<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'password', 'error')} required">
-					<label for="password">
-						<g:message code="user.password.label" default="Password" />
-						<span class="required-indicator">*</span>
-					</label>
-					<g:textField name="password" required="" value="${userInstance?.password}"/>
+			</div>
+			<div class="row">
+				<div class="col-md-offset-3 col-md-3">
+					<span class="label">Mot de passe *</span>
+				</div>
+
+				<div class="col-md-3">
+						<g:passwordField id="pass" type="password" class="form-control" placeholder="Choisissez un mdp compliqué" name="password" required="" value="${userInstance?.password}"/>
 
 				</div>
-				<fieldset class="buttons">
-					<g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />
-				</fieldset>
+			</div>
+			<div class="row">
+				<div class="col-md-offset-3 col-md-3">
+					<span class="label">Confirmation mot de passe *</span>
+				</div>
+
+				<div class="col-md-3">
+						<g:passwordField id="confirm_pass" type="password" class="form-control" placeholder="Réintroduisez votre mdp" name="ConfirmPassword" required=""/>
+				</div>
+                <div id="pass_not_equal_div" class="col-md-3">
+                    <span class="alert-danger">Les mots de pass ne correspondent pas</span>
+                </div>
+			</div>
+			<div class="row">
+				<div class="col-md-offset-6 col-md-3">
+					<g:submitButton id="register_btn" name="create" class="save" value="Valider" />
+				</div>
+			</div>
+
 			</g:form>
 		</div>
 	</body>

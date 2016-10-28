@@ -4,7 +4,6 @@
 		<meta name="layout" content="mainWithNav">
 		<g:set var="entityName" value="${message(code: 'groupe.label', default: 'Groupe')}" />
 		<title><g:message code="default.create.label" args="[entityName]" /></title>
-
 	</head>
 	<body>
 
@@ -26,7 +25,7 @@
 					<g:render template="form"/>
 				</fieldset>
 				<fieldset class="buttons">
-					<g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />
+					<g:submitButton name="create" class="save" value="Valider" />
 				</fieldset>
 			</g:uploadForm>
 		</div>

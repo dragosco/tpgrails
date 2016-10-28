@@ -23,16 +23,19 @@ class BootStrap {
             admin = userService.createUser("admin", "admin", roleAdmin)
             modop = userService.createUser("modop", "modop", roleOp)
 
-            def photo1 = new Photo(nom: 'montagne.jpg').save(flush: true, failOnError: true)
+            def photoEnv = new Photo(nom: 'environnement.jpg').save(flush: true, failOnError: true)
+            def photoNivDiff = new Photo(nom: 'niveau_difficulté.jpg').save(flush: true, failOnError: true)
+            def photoSaisons = new Photo(nom: 'saisons.jpg').save(flush: true, failOnError: true)
+            def photoMontagne = new Photo(nom: 'montagne.jpg').save(flush: true, failOnError: true)
 
             //Création groupe racine
             def grNull      = groupeService.createGroupe("Aucun", admin, 0, 1)
 
             //Création supergroupes (niveau 1)
             def grEnv       = groupeService.createGroupe("Environnement", admin, 1, 1)
-            def grNivDif    = groupeService.createGroupe("Niveau de difficulté", admin, 1, 1)
-            def grSaison    = groupeService.createGroupe("Saison", admin, 1, 1)
-            def grType      = groupeService.createGroupe("Type d'activité", admin, 1, 1)
+            def grNivDif    = groupeService.createGroupe("Niveau de difficulté", admin, 1, 2)
+            def grSaison    = groupeService.createGroupe("Saison", admin, 1, 3)
+            def grType      = groupeService.createGroupe("Type d'activité", admin, 1, 4)
 
             //Création groupes niveau 2
             def aquatique   = groupeService.createGroupe("Aquatique", admin, 2, 1)

@@ -10,19 +10,21 @@
 
 
 	<div class="container">
-		<ul class="list-group">
-			<g:each in="${listSuperGroupes}" var="groupeInstance">
-				<li class="list-group-item">
-					<img src=${grailsApplication.config.images.groupes.url}${groupeInstance.photo.nom} style="width:100px">
+		<g:each in="${listSuperGroupes}" var="g">
+			<div class="col-md-6 no-padding">
 
-					<a href="${createLink(uri: '/groupe/show/')}${groupeInstance.id}">${fieldValue(bean: groupeInstance, field: "nom")}</a>
+					<div class="row no-margin img-wrapper">
+						<img class="groupe-img" src=${grailsApplication.config.images.groupes.url}${g.photo.nom}>
+						<g:link controller="groupe" action="show" id="${g.id}">
+							<div class="img-description">
+								<span class="img-span">${g.nom}</span>
+							</div>
+						</g:link>
+					</div>
 
-					${fieldValue(bean: groupeInstance, field: "auteur")}
 
-					${fieldValue(bean: groupeInstance, field: "parent")}
-				</li>
-			</g:each>
-		</ul>
+			</div>
+		</g:each>
 	</div>
 	</body>
 </html>
